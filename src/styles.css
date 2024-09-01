@@ -1,7 +1,7 @@
 /*Estilos generales*/
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color:#f3cccc;
+    background: linear-gradient(90deg, hsla(211, 66%, 87%, 1) 0%, hsla(348, 67%, 88%, 1) 50%, hsla(272, 26%, 72%, 1) 100%);
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -12,7 +12,9 @@ body {
 
 /*Estilos para el contenedor principal */
 #app {
-    background-color: rgb(243, 245, 241);
+    border: rgb(216, 108, 238) 8px inset;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(219, 163, 233);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -26,21 +28,25 @@ form {
 
 /* Estilos al input */
 input {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    background-color: rgb(240, 216, 224);
     width: 75%;
     padding: 8px;
     margin-right: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #ffa7f0;
     border-radius: 3xp;
 }
 
 /*Estilos al botón*/
 button {
+    font-family: cursive;
     padding: 5px 8px;
-    background-color: #007bff;
-    color: white;
+    background-color: #e76fbd;
+    color: rgb(8, 8, 8);
     border: none;
     border-radius: 3px;
-    cursor: pointer;
+    cursor: all-scroll;
 }
 
 /* Estilos para la lista */
@@ -49,9 +55,11 @@ ul {
     padding: 0;
 }
 
-/* Estilos para el elemento de la lita*/
+/* Estilos para el elemento de la lista*/
 li {
-    background-color: #f4f4f4;
+    font-family: cursive;
+    border: rgb(236, 86, 179) 8px inset;
+    background-color: #f7b9de;
     padding: 10%;
     border: 1 px solid #ddd;
     margin-top: 10 px;
